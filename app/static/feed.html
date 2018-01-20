@@ -1,0 +1,28 @@
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/css_feed.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.expertphp.in/js/jquery.form.js"></script>
+<script src = "/js/feed2.js"></script>
+</head>
+<body>
+<div class="row" style = "margin-left: 10px;">
+ <form action="/nimda" method="post" enctype="multipart/form-data">
+  <div class="col-md-6">
+      <input type="file" class="form-control" id="images" name="images[]" onchange="preview_images();" multiple/>
+  </div>
+  <div class="col-md-6">
+      <input type="submit" class="btn btn-primary" name='submit_image' value="Upload Multiple Image"/>
+  </div>
+  <br/><br/>
+  <div id="comments">
+  </div>
+ </form>
+</div>
+<div class="row" id="image_preview"></div>
+ <script src = "https://code.jquery.com/jquery-3.1.0.min.js"></script>
+ <script src = "/js/feed1.js"> </script>
+</body>
+</html>	

@@ -1,0 +1,36 @@
+{
+  "name": "bmsce_rotaract",
+  "version": "1.0.0",
+  "description": "The website for BMSCE Rotaract Club",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSuiGenerisAakash/bmsce-rotaract.git"
+  },
+  "keywords": [
+    "BMSCE",
+    "Rotaract",
+    "Rotary",
+    "Club",
+    "BMS"
+  ],
+  "author": "Aakash Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSuiGenerisAakash/bmsce-rotaract/issues"
+  },
+  "homepage": "https://github.com/theSuiGenerisAakash/bmsce-rotaract#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootbox": "^4.4.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "mongodb": "^3.0.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.6"
+  }
+}
